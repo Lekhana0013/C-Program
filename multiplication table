@@ -1,0 +1,12 @@
+#include<stdio.h>
+main()
+{
+	int i=1,n,j=5;
+     n=10;
+	while(i<=n)
+	{
+	printf("%dx%d=%d\n",j,i,j*i);
+	i++;
+	}
+	printf("\n");
+}
