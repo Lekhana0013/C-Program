@@ -1,0 +1,11 @@
+#include<stdio.h>
+main()
+{
+	int i,n,j=5;
+     n=10;
+	for(i=1;i<=n;i++)
+	{
+	printf("%dx%d=%d\n",j,i,j*i);
+	}
+	printf("\n");
+}
