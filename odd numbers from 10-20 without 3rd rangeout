@@ -1,0 +1,11 @@
+#include<stdio.h>
+main()
+{
+	int i,n1,n2;
+	scanf("%d %d",&n1,&n2);
+	for(i=10;i<=n2;i++)
+	{
+		if(i%2!=0&&i!=15)
+		printf("%d ",i);
+	}	
+}
